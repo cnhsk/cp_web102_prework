@@ -23,7 +23,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://drive.google.com/file/d/1j18FPFBFpEBWuftoksrOyGwRsXroay3R/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Find the URL to the video recording and to download it:https://drive.google.com/file/d/1j18FPFBFpEBWuftoksrOyGwRsXroay3R/view?usp=sharing
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Mac Screenshot App
