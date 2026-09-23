@@ -174,3 +174,21 @@ firstGameContainer.appendChild(firstGameElement);
 const secondGameElement = document.createElement("p");
 secondGameElement.innerHTML = `${secondGame.name}`;
 secondGameContainer.appendChild(secondGameElement);
+
+/************************************************************************************
+ * Bonus: Search for a game by name
+ */
+
+// grab the search box
+const searchInput = document.getElementById("search-input");
+
+// every time the user types, show only the games whose name matches
+searchInput.addEventListener("input", () => {
+    const searchText = searchInput.value.toLowerCase();
+    const matchingGames = GAMES_JSON.filter((game) =>
+        game.name.toLowerCase().includes(searchText)
+    );
+
+    deleteChildElements(gamesContainer);
+    addGamesToPage(matchingGames);
+});

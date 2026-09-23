@@ -79,3 +79,15 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#search-container {
+    text-align: center;
+}
+
+#search-input {
+    font-family: 'Cabin';
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 7px;
+}
